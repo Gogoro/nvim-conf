@@ -1,3 +1,5 @@
+vim.opt.mouse = ""
+
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 vim.keymap.set('v', '<leader>pv', vim.cmd.Ex)
 

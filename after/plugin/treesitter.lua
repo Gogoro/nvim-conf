@@ -1,29 +1,6 @@
--- empty setup using defaults
-require("nvim-tree").setup()
-
--- OR setup with some options
-require("nvim-tree").setup({
-  sort = {
-    sorter = "case_sensitive",
-  },
-  view = {
-    width = 30,
-  },
-  renderer = {
-    group_empty = true,
-  },
-  filters = {
-    dotfiles = true,
-  },
-})
-
-local treeApi = require('nvim-tree.api')
-vim.keymap.set('n', '<leader>ntt', treeApi.tree.toggle, {}) 
-vim.keymap.set('n', '<leader>ntf', treeApi.tree.open, {}) 
-
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all" (the five listed parsers should always be installed)
-  ensure_installed = { "javascript", "typescript", "go", "c", "lua", "vim", "vimdoc", "query" },
+  ensure_installed = { "javascript", "typescript", "go", "c", "lua", "vim", "vimdoc", "query", "css" },
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
   sync_install = false,

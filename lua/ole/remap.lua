@@ -26,3 +26,5 @@ vim.keymap.set('n', 'Q', "<nop>")
 
 vim.keymap.set('n', '<C-f>', '<cmd>silent !tmux neww tmux-sessionizer<CR>')
 
+vim.keymap.set('n', '<leader>e', ':lua vim.diagnostic.open_float(0, {scope="line"}')
+

@@ -21,6 +21,7 @@ Plug('L3MON4D3/LuaSnip')
 Plug('VonHeikemen/lsp-zero.nvim', {['branch'] = 'v3.x'})
 Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug 'MunifTanjim/prettier.nvim'
+Plug 'alexghergh/nvim-tmux-navigation'
 vim.call('plug#end')
 
 

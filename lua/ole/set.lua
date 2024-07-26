@@ -28,3 +28,6 @@ vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "80,120"
 vim.g.mapleader = " "
+
+vim.g.go_def_mode = 'gopls'
+vim.g.go_info_mode = 'gopls'

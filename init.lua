@@ -22,6 +22,7 @@ Plug('VonHeikemen/lsp-zero.nvim', {['branch'] = 'v3.x'})
 Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug 'MunifTanjim/prettier.nvim'
 Plug 'alexghergh/nvim-tmux-navigation'
+Plug ('fatih/vim-go', { ['do'] = ':GoUpdateBinaries' })
 vim.call('plug#end')
 
 

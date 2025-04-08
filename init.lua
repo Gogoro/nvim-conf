@@ -4,6 +4,8 @@ local vim = vim
 local Plug = vim.fn['plug#']
 
 vim.call('plug#begin')
+Plug 'kdheepak/lazygit.nvim'
+Plug 'github/copilot.vim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug('nvim-tree/nvim-web-devicons')
 Plug 'nvim-lua/plenary.nvim'
@@ -23,6 +25,8 @@ Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug 'MunifTanjim/prettier.nvim'
 Plug 'alexghergh/nvim-tmux-navigation'
 Plug ('fatih/vim-go', { ['do'] = ':GoUpdateBinaries' })
+Plug ('ThePrimeagen/harpoon', {['branch'] = 'harpoon2'})
+Plug ('iamcco/markdown-preview.nvim', { ['do'] = 'cd app && npx --yes yarn install' })
 vim.call('plug#end')
 
 

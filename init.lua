@@ -27,6 +27,10 @@ Plug 'alexghergh/nvim-tmux-navigation'
 Plug ('fatih/vim-go', { ['do'] = ':GoUpdateBinaries' })
 Plug ('ThePrimeagen/harpoon', {['branch'] = 'harpoon2'})
 Plug ('iamcco/markdown-preview.nvim', { ['do'] = 'cd app && npx --yes yarn install' })
+Plug 'grafana/vim-alloy'
+Plug ('lukas-reineke/indent-blankline.nvim', {
+    ['branch'] = 'master'})
+--Plug ('neoclide/coc.nvim', {['branch'] = 'release'})
 vim.call('plug#end')
 
 

@@ -10,6 +10,9 @@ table.insert(vimgrep_arguments, "--hidden")
 -- I don't want to search in the `.git` directory.
 table.insert(vimgrep_arguments, "--glob")
 table.insert(vimgrep_arguments, "!**/.git/*")
+-- I don't want to search in the package-lock.json
+table.insert(vimgrep_arguments, "--glob")
+table.insert(vimgrep_arguments, "!**/package-lock.json")
 
 telescope.setup({
 	defaults = {
